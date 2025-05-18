@@ -1,0 +1,12 @@
+name: Say Hello to Kartik 👋
+
+on:
+  workflow_dispatch:  # manually run kar sakte ho GitHub UI se
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Hello
+        run: echo "Hello Kartik 👋! This is your first GitHub Action running successfully."
